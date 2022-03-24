@@ -9,6 +9,7 @@ namespace Commander.Profiles
 		public AppMappingProfile()
 		{
 			CreateMap<Command, CommandReadDto>();
+			CreateMap<CommandCreateDto, Command>();
 		}
     }
 }
